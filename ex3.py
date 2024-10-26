@@ -1,0 +1,10 @@
+nome = input("Por favor digite o seu nome: ")
+print("O nome digitado é:",nome)
+print("O nome digitado é: {0}".format(nome))
+nota1 = input("Digite a nota do 1 Bim: ")
+nota2 = input("Digite a nota do 2 Bim: ")
+print("A nota do 1 BIM é {0} e do 2 BIM é {1}".format(nota1,nota2))
+nota1 = float(nota1)
+nota2 = float(nota2)
+media = (nota1 + nota2) / 2
+print("A média é {0}".format(media))
